@@ -22,3 +22,11 @@ print("Con camelcase....")
 # Imprimimos el nombre en formato título
 #Utilizamos camelcase
 print(cam.hump(nombre))
+
+# Para resolver el problema
+# Creamos otro objeto cam2
+# Al definir el objeto, incluimos los argumentos
+# 'flor' y 'león'
+
+cam2=camelcase.CamelCase('flor','león')
+print(cam2.hump(nombre))
