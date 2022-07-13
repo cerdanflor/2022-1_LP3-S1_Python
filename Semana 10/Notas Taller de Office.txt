@@ -1,0 +1,1 @@
+=IF(I5="NSP";"No se presentó"; IF(I5<11;"En Inicio";IF(I5<16;"En Proceso";"Logrado")))
